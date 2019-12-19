@@ -10,16 +10,16 @@ int main() {
 	cout << "************************************\n";
 	cout << "\n";
 		
-		cout << "sizeof (boolean)   \t = " << sizeof(bool)		<< " bytes" << endl;
-		cout << "sizeof (short)     \t = " << sizeof(short)		<< " bytes" << endl;
-		cout << "sizeof (int)	   \t = " << sizeof(int)		<< " bytes" << endl;
-		cout << "sizeof (long)	   \t = " << sizeof(long)		<< " bytes" << endl;
-		cout << "sizeof (long long) \t = " << sizeof(long long) << " bytes" << endl;
-		cout << "sizeof (double)	   \t = " << sizeof(double)	<< " bytes" << endl;
+		cout << "sizeof (boolean)   \t = " << sizeof(bool)		<< " bytes" << endl;	//1 bytes
+		cout << "sizeof (short)     \t = " << sizeof(short)		<< " bytes" << endl;	//2 bytes
+		cout << "sizeof (int)	   \t = " << sizeof(int)		<< " bytes" << endl;	//4 bytes
+		cout << "sizeof (long)	   \t = " << sizeof(long)		<< " bytes" << endl;	//4 bytes
+		cout << "sizeof (long long) \t = " << sizeof(long long) << " bytes" << endl;		//8 bytes
+		cout << "sizeof (double)	   \t = " << sizeof(double)	<< " bytes" << endl;	//8 bytes
 
 		
 		int num = 23;
-		cout << "sizeof (num = 23)  \t = " << sizeof(num) << " bytes" << endl;
+		cout << "sizeof (num = 23)  \t = " << sizeof(num) << " bytes" << endl;			//4 bytes
 	
 	cout << "************************************\n";
 	cout << "*              String              *\n";
