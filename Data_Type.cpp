@@ -3,7 +3,24 @@
 using namespace std;
 
 int main() {
+	
+	cout << "\n\n";
+	cout << "************************************\n";
+	cout << "*             sizeof               *\n";
+	cout << "************************************\n";
+	cout << "\n";
+		
+		cout << "sizeof (boolean)   \t = " << sizeof(bool)		<< " bytes" << endl;
+		cout << "sizeof (short)     \t = " << sizeof(short)		<< " bytes" << endl;
+		cout << "sizeof (int)	   \t = " << sizeof(int)		<< " bytes" << endl;
+		cout << "sizeof (long)	   \t = " << sizeof(long)		<< " bytes" << endl;
+		cout << "sizeof (long long) \t = " << sizeof(long long) << " bytes" << endl;
+		cout << "sizeof (double)	   \t = " << sizeof(double)	<< " bytes" << endl;
 
+		
+		int num = 23;
+		cout << "sizeof (num = 23)  \t = " << sizeof(num) << " bytes" << endl;
+	
 	cout << "************************************\n";
 	cout << "*              String              *\n";
 	cout << "************************************\n";
@@ -174,7 +191,39 @@ int main() {
 		cout << "color1 = " << color1 << endl;
 		Colors color2 = Purple;
 		cout << "color2 = " << color2 << endl;
-		
+	
+	cout << "\n\n";
+	cout << "************************************\n";
+	cout << "*               auto               *\n";
+	cout << "************************************\n";
+	cout << "\n";
+
+		auto numAuto = 100; // automatically sign data type = int
+		cout << "numAuto \t = " << numAuto << endl;
+		cout << "size of numAuto  = " << sizeof(numAuto) << endl;
+
+		auto numAuto2 = 12345678901234567890; // automatically sign data type = long long
+		cout << "numAuto2 \t = " << numAuto2 << endl;
+		cout << "size of numAuto2  = " << sizeof(numAuto2) << endl;
+
+		auto boolean = true;
+		cout << "boolean \t = " << boolean << endl;
+		cout << "size of boolean  = " << boolean << endl;
+
+
+	cout << "\n\n";
+	cout << "************************************\n";
+	cout << "*              typedef             *\n";
+	cout << "************************************\n";
+	cout << "\n";
+
+		typedef unsigned long long REALLY_BIG_DATATYPE;
+		REALLY_BIG_DATATYPE size = 12345678901234567890;
+		cout << "size \t\t\t   = " << size << endl;
+		cout << "sizeof REALLY_BIG_DATATYPE = " << sizeof(REALLY_BIG_DATATYPE) << endl;
+		cout << "sizeof size \t\t   = " << sizeof(size) << endl;
+
+
 	cout << "\n\n";
 	cout << "************************************\n";
 	cout << "*           End Program            *\n";
